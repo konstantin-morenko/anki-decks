@@ -1,0 +1,13 @@
+
+list:
+- name: Горячие клавиши MS Word
+  path: [Программы, MS Word]
+  state: active
+  description: |
+    Горячие клавиши для MS Word 2016+.  Карточки, которые управляют
+    встроенным форматированием (в противовес стилевому) по умолчанию отключены.
+  versions:
+  - number: 1.0
+    changelog: New deck
+    date: 2022-09-18
+    file: programs/ms-word/hotkeys/Programs__MS_Word__Hotkeys-1.0.0.file
