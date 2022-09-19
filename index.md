@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div style="border: 3px solid red; border-radius: 8px; background-color: #f99; text-align: center; margin: 16px; padding: 16px">
+Страница находится в стадии разработки
+</div>
+
 ## Идея
 
 <div class="deck-list" id="deck-list">
