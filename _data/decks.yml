@@ -8,6 +8,6 @@ list:
     встроенным форматированием (в противовес стилевому) по умолчанию отключены.
   versions:
   - number: 1.0
-    changelog: New deck
+    changelog: Новая колода
     date: 2022-09-18
-    file: programs/ms-word/hotkeys/Programs__MS_Word__Hotkeys-1.0.0.file
+    file: programs/word/hotkeys/Programs__Word__Hotkeys-1.0.apkg
