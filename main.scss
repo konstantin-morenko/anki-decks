@@ -1,0 +1,62 @@
+---
+# FrontMatter to proper processing by SASS
+---
+
+$background-color: white;
+$layout-breakpoint-small: 800px;
+$fonts-header: Georgia, serif;
+$fonts-default: Verdana,sans-serif;
+$color: #333;
+$margin: 16px;
+$border: 2px $color solid;
+$default-font-size: 15px;
+// 36 30 24 20 18 16
+$padding: 4px;
+
+.material-icons {
+    font-size: inherit;
+}
+
+html {
+    overflow-x:hidden;
+}
+
+body {
+    font-family: $fonts-default;
+    font-size: $default-font-size;
+    line-height: 1.5;
+    margin: auto;
+    color: $color;
+    max-width: 1200px;
+}
+
+.header {
+    font-size: 30px;
+    font-stretch: condensed;
+    text-align: center;
+    border-bottom: $border;
+    margin: $margin*2 0;
+    font-family: $fonts-header;
+    // Keeping sticky
+    position: sticky;
+    top: 0;
+    background-color: $background-color;
+}
+
+.deck {
+    .name {
+	font-size: 24px;
+    }
+    .state {}
+    .cards-num {}
+    .path {}
+    .description {}
+    .versions {
+	.ver {
+	    .number {}
+	    .date {}
+	    .download {}
+	    .changelog {}
+	}
+    }
+}
