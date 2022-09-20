@@ -30,8 +30,16 @@ body {
     max-width: 1200px;
 }
 
+#content {
+    margin: 0 16px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
 .header {
-    font-size: 30px;
+    font-size: 28px;
     font-stretch: condensed;
     text-align: center;
     border-bottom: $border;
@@ -43,19 +51,36 @@ body {
     background-color: $background-color;
 }
 
+.deck-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .deck {
+    width: 350px;
+    margin: 16px 0;
     .name {
 	font-size: 24px;
     }
-    .state {}
-    .cards-num {}
-    .path {}
+    .panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 16px 0;
+	.state {}
+	.cards-num {}
+	.path {}
+    }
     .description {}
     .versions {
 	.ver {
-	    .number {}
-	    .date {}
-	    .download {}
+	    margin-top: 16px;
+	    border-top: 1px solid;
+	    .panel {
+		.number {}
+		.date {}
+		.download {}
+	    }
 	    .changelog {}
 	}
     }
