@@ -1,8 +1,9 @@
 
 list:
 - name: Горячие клавиши MS Word
-  path: [Программы, MS Word]
+  path: [Программы, Word]
   state: active
+  cards: 61
   description: |
     Горячие клавиши для MS Word 2016+.  Карточки, которые управляют
     встроенным форматированием (в противовес стилевому) по умолчанию отключены.
@@ -11,3 +12,19 @@ list:
     changelog: Новая колода
     date: 2022-09-18
     file: programs/word/hotkeys/Programs__Word__Hotkeys-1.0.apkg
+  - number: 1.1
+    changelog: Добавлены клавиши из настроек Word 2016
+    date: 2022-10-02
+    file: programs/word/hotkeys/Programs__Word__Hotkeys-1.1.apkg
+
+- name: Горячие клавиши Inkscape
+  path: [Программы, Inkscape]
+  state: active
+  cards: 225
+  description: |
+    Горячие клавиши и пункты меню для Inkscape 1.2.1.
+  versions:
+  - number: 1.0
+    changelog: Новая колода
+    date: 2022-10-22
+    file: programs/inkscape/hotkeys/Programs__Inkscape__Menus-Hotkeys-1.0.apkg
